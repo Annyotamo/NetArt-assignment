@@ -1,9 +1,9 @@
 import styles from "./css/Header.module.css";
-import headerImg from "./assets/headerImg.png";
+import logo from "./assets/logo.png";
 export default function Header() {
     return (
         <div className={styles["header-container"]}>
-            <img src={headerImg} alt="Project logo" />
+            <img src={logo} alt="Project logo" />
         </div>
     );
 }
