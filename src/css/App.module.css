@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #fff8aa;
+    --red: #ec3237;
+    --crimson: #a52326;
+}
+
+.main-container {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--yellow);
+    align-items: center;
+    background: linear-gradient(white, var(--yellow));
+    /* font-size: 1rem; */
+}

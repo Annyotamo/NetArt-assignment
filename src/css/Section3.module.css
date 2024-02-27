@@ -1,0 +1,27 @@
+.sec-3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    margin-bottom: 1rem;
+}
+
+.sec-3-container strong {
+    margin-bottom: 1rem;
+}
+
+.sec-3-container span {
+    /* font-size: 1rem; */
+    color: var(--red);
+}
+
+hr {
+    color: var(--red);
+}
+
+@media only screen and (max-width: 1350px) {
+    .sec-3-container p {
+    }
+}
