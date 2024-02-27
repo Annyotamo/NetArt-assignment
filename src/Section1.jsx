@@ -1,11 +1,11 @@
 import styles from "./css/Section1.module.css";
-import section1 from "./assets/section1.png";
-import section2 from "./assets/section2.png";
+import image1 from "./assets/image1.png";
+import image2 from "./assets/image2.png";
 
 export default function Section1() {
     return (
         <div className={styles["sec-1-container"]}>
-            <img src={section1} alt="" />
+            <img src={image1} alt="" />
             <div>
                 <h3> C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h3>
                 <ul>
@@ -19,7 +19,7 @@ export default function Section1() {
                         pumps with IoT enabled control panel.
                     </li>
                 </ul>
-                <img src={section2} alt="content image" />
+                <img src={image2} alt="content image" />
                 <p>
                     Government of India has awarded the <strong>"National Energy Conservation Award 2018"</strong>. Mr.
                     G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan,
